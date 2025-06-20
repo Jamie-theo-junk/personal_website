@@ -1,0 +1,74 @@
+.firstSection{
+  display: flex;
+  flex-direction: row;
+  margin-left: 236px;
+  
+}
+
+.firstsection_text{
+  font-size: 24px;
+  width: 600px;
+  margin-top: 150px;
+}
+/* #iphone_example:hover{
+   transform: translateY(-10px);
+} */
+
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap; 
+}
+
+.secondSection_left {
+  flex: 1;
+  max-width: 25%;
+  margin-left: auto;
+
+}
+
+.secondSection_right {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#iphone_example_two {
+  max-width: 100%;
+  height: auto;
+}
+
+.getStartedBtn {
+  background-color: #6E00FF;
+  color: white;
+  border-radius: 8px;
+  width: 226px;
+  height: 60px;
+  cursor: pointer;
+   display: flex;
+  justify-content: center; 
+  align-items: center;     
+  border-radius: 10px;
+  
+}
+
+.getStartedBtn:hover {
+  background-color: #5500cc;
+}
+.secondSection_text{
+    font-size: 24px;
+    width: 400px;
+}
+.secondSection_btn_txt{
+    font-size: 24px;
+}
+.secondSection{
+     background-image: url('../assets/svgs/gradient.svg'); /* Adjust path if needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

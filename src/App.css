@@ -1,0 +1,6 @@
+body {
+  background-color: white;
+  margin: 0; /* optional, removes default margin */
+  font-family: sans-serif; /* optional */
+  min-height: 100vh;
+}

@@ -1,0 +1,39 @@
+/* Navbar.css */
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  font-weight: 300;
+}
+
+nav a {
+  color: #882DFF;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 1rem;
+}
+
+
+.freelance{
+    margin-left: auto;
+}
+.myCv{
+  border-radius: 5px;
+  border: 2px solid #6E00FF;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;     
+ justify-content: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.myCv:hover{
+  background-color: #6E00FF; 
+  color: white;}
